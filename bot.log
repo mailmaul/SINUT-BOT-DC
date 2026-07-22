@@ -1,0 +1,293 @@
+2026-06-09 10:44:19,313 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2026-06-09 10:44:19,313 [WARNING] davey is not installed, voice will NOT be supported
+2026-06-09 10:45:40,888 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2026-06-09 10:45:40,889 [WARNING] davey is not installed, voice will NOT be supported
+2026-06-09 10:45:43,639 [INFO] Starting bot...
+2026-06-09 10:45:43,641 [INFO] logging in using static token
+2026-06-09 10:45:48,029 [INFO] Shard ID None has connected to Gateway (Session ID: 9ba06ecfeeb9485cda5654dcb7a9f3fc).
+2026-06-09 10:45:50,040 [INFO] Logged in as Sinut-BOT#5407
+2026-06-09 10:46:07,296 [INFO] Image detected from hptoko6400: https://cdn.discordapp.com/attachments/1432905846437711879/1513751017760489512/Jum11Juli20251053.jpg?ex=6a28ddfe&is=6a278c7e&hm=f61f0dc0f26b8b9055817c67926fe9b2c43d9cd3407a2f6a74046473d3def3d6&
+2026-06-09 10:46:08,420 [INFO] Processing image: https://cdn.discordapp.com/attachments/1432905846437711879/1513751017760489512/Jum11Juli20251053.jpg?ex=6a28ddfe&is=6a278c7e&hm=f61f0dc0f26b8b9055817c67926fe9b2c43d9cd3407a2f6a74046473d3def3d6&
+2026-06-09 10:46:10,778 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-09 10:46:10,779 [INFO] Retrying request to /chat/completions in 0.450509 seconds
+2026-06-09 10:46:11,761 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-09 10:46:11,762 [INFO] Retrying request to /chat/completions in 0.799577 seconds
+2026-06-09 10:46:13,050 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-09 10:46:13,051 [ERROR] Error processing image: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-06-09 11:02:42,981 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2026-06-09 11:02:42,981 [WARNING] davey is not installed, voice will NOT be supported
+2026-06-09 11:02:42,982 [WARNING] Using CPU. Note: This module is much faster with a GPU.
+2026-06-09 11:02:42,987 [WARNING] Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2026-06-09 11:03:58,166 [INFO] Download complete
+2026-06-09 11:03:58,166 [WARNING] Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2026-06-09 11:04:11,706 [INFO] Download complete.
+2026-06-09 11:04:15,478 [INFO] Starting bot...
+2026-06-09 11:04:15,479 [INFO] logging in using static token
+2026-06-09 11:04:17,833 [INFO] Shard ID None has connected to Gateway (Session ID: e7f275c650706e5ba2cc48c10cd88af6).
+2026-06-09 11:04:19,836 [INFO] Logged in as Sinut-BOT#5407
+2026-06-09 11:04:47,436 [INFO] Image detected from hptoko6400: https://cdn.discordapp.com/attachments/1432905846437711879/1513755716320755845/Rab30April20251650.jpg?ex=6a28e25e&is=6a2790de&hm=b5e1ef5b78a9ff635307d0f01156d9cfb3a5065f9b7d868e8fbfe6eaf9fa1e8c&
+2026-06-09 11:04:48,722 [INFO] Processing image with OCR: https://cdn.discordapp.com/attachments/1432905846437711879/1513755716320755845/Rab30April20251650.jpg?ex=6a28e25e&is=6a2790de&hm=b5e1ef5b78a9ff635307d0f01156d9cfb3a5065f9b7d868e8fbfe6eaf9fa1e8c&
+2026-06-09 11:04:49,344 [ERROR] Error processing image: HTTP Error 403: Forbidden
+2026-06-09 11:06:36,405 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2026-06-09 11:06:36,405 [WARNING] davey is not installed, voice will NOT be supported
+2026-06-09 11:06:36,406 [WARNING] Using CPU. Note: This module is much faster with a GPU.
+2026-06-09 11:06:39,946 [INFO] Starting bot...
+2026-06-09 11:06:39,947 [INFO] logging in using static token
+2026-06-09 11:06:42,406 [INFO] Shard ID None has connected to Gateway (Session ID: fc936fd927c802ce186dee43357c78b4).
+2026-06-09 11:06:44,414 [INFO] Logged in as Sinut-BOT#5407
+2026-06-09 11:06:49,507 [INFO] Image detected from hptoko6400: https://cdn.discordapp.com/attachments/1432905846437711879/1513756228000678058/Rab30April20251650.jpg?ex=6a28e2d8&is=6a279158&hm=d5aa2b770849ffe84e094e2eab7c0e43e04d771483494b763d05ec86286532a2&
+2026-06-09 11:06:49,979 [INFO] Processing image with OCR: https://cdn.discordapp.com/attachments/1432905846437711879/1513756228000678058/Rab30April20251650.jpg?ex=6a28e2d8&is=6a279158&hm=d5aa2b770849ffe84e094e2eab7c0e43e04d771483494b763d05ec86286532a2&
+2026-06-09 11:06:58,408 [INFO] Extracted text:
+
+(
+GRUP BC
+BCA
+
+Transfer Berhasil
+30 Apr 202516.50.33
+
+IDR 5,000,000.00
+Nama Penerima
+ANGGA
+WELLYAERVIN
+C
+Rekening Tujuan
+858
+3
+539
+=
+3742
+Jenis Transaksi
+Transfer sekarang
+Mata Uang Tujuan
+IDR
+7
+Indonesian
+Rupiah
+Dari Rekening
+858
+5**
+**21
+4
+Mata Uang Asal
+IDR
+Indonesian
+Rupiah
+Nominal
+IDR 5,000,000.00
+Berita
+No. Referensi
+95271202504301650
+33847TRFO283169912
+Fn
+1
+[
+OC
+BC
+F
+Joy
+Fa
+Ran
+BCT
+[y~enr
+Os
+J G
+'Tujuan Ct
+U
+'7
+2026-06-09 11:06:58,409 [INFO] Extracted data: {'amount': '30', 'bank': 'BCA', 'name': 'ANGGA'}
+2026-06-09 11:06:58,411 [INFO] Saving to sheet: {'amount': '30', 'bank': 'BCA', 'name': 'ANGGA'}
+2026-06-09 11:06:58,982 [INFO] Data saved successfully
+2026-06-09 11:11:45,781 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2026-06-09 11:11:45,781 [WARNING] davey is not installed, voice will NOT be supported
+2026-06-09 11:11:45,781 [WARNING] Using CPU. Note: This module is much faster with a GPU.
+2026-06-09 11:11:49,752 [INFO] Starting bot...
+2026-06-09 11:11:49,753 [INFO] logging in using static token
+2026-06-09 11:11:51,837 [INFO] Shard ID None has connected to Gateway (Session ID: c9b922473bc265d2802d4b9007b38562).
+2026-06-09 11:11:53,859 [INFO] Logged in as Sinut-BOT#5407
+2026-06-09 11:12:23,408 [INFO] Image detected from hptoko6400: https://cdn.discordapp.com/attachments/1432905846437711879/1513757628428456068/Jum11Juli20251053.jpg?ex=6a28e426&is=6a2792a6&hm=3e48abbc2c359d6b4194c909ca80de1c0d56fa65bb18616e9ce0d1d1ff367cdc&
+2026-06-09 11:12:24,031 [INFO] Processing image with OCR: https://cdn.discordapp.com/attachments/1432905846437711879/1513757628428456068/Jum11Juli20251053.jpg?ex=6a28e426&is=6a2792a6&hm=3e48abbc2c359d6b4194c909ca80de1c0d56fa65bb18616e9ce0d1d1ff367cdc&
+2026-06-09 11:12:32,071 [INFO] Extracted text:
+(
+GrUP 8C
+BCA
+
+Transfer Berhasil
+11 Jul 2025 10.53.12
+
+IDR 389,000.00
+Nama Penerima
+PUTRA KAPUAS
+MANDIRI PT
+Al
+Rekening Tujuan
+657
+528
+8492
+Jenis Transaksi
+Transfer sekarang
+Mata Uang Tujuan
+IDR
+7
+Indonesian
+Rupiah
+Dari Rekening
+858
+5**
+**21
+4
+Mata Uang Asal
+IDR
+Indonesian
+Rupiah
+Nominal
+IDR 389,000.00
+Berita
+No. Referensi
+9527120250711105312
+908TRFO464019198
+Fn
+1
+[n
+1
+BC
+F
+)`
+Fa"
+RCn
+BCT
+[y~enr
+Os
+9 G
+'Tujuan Ct
+
+Yy
+2026-06-09 11:12:32,072 [INFO] Extraction details - Raw data: {'amount': '389000.00', 'bank': 'BCA', 'name': 'PUTRA KAPUAS', 'date': '11 Jul 2025', 'timestamp': '10.53.12'}
+2026-06-09 11:12:32,072 [INFO] Extracted data: {'amount': '389000.00', 'bank': 'BCA', 'name': 'PUTRA KAPUAS', 'date': '11 Jul 2025', 'timestamp': '10.53.12'}
+2026-06-09 11:12:32,074 [INFO] Saving to sheet: {'amount': '389000.00', 'bank': 'BCA', 'name': 'PUTRA KAPUAS', 'date': '11 Jul 2025', 'timestamp': '10.53.12'}
+2026-06-09 11:12:32,783 [INFO] Data saved successfully
+2026-06-09 11:18:40,137 [INFO] Image detected from hptoko6400: https://cdn.discordapp.com/attachments/1432905846437711879/1513759207990497451/FT683299831.png?ex=6a28e59f&is=6a27941f&hm=dbcdc457b6a2e5983a30e54b87a9b10624a36a5881e3bdb28a4f3e10f6bc4c27&
+2026-06-09 11:18:40,854 [INFO] Processing image with OCR: https://cdn.discordapp.com/attachments/1432905846437711879/1513759207990497451/FT683299831.png?ex=6a28e59f&is=6a27941f&hm=dbcdc457b6a2e5983a30e54b87a9b10624a36a5881e3bdb28a4f3e10f6bc4c27&
+2026-06-09 11:18:42,201 [ERROR] Error processing image: Invalid input type. Supporting format = string(file path or url), bytes, numpy array
+2026-06-09 11:20:04,215 [INFO] Image detected from hptoko6400: https://cdn.discordapp.com/attachments/1432905846437711879/1513759561062813716/IMG-20250214-WA0001.jpg?ex=6a28e5f3&is=6a279473&hm=7e4c6d73e86678ac8a8fa090ba1d5267246245acf1666f52d476fa18f22e6b30&
+2026-06-09 11:20:04,810 [INFO] Processing image with OCR: https://cdn.discordapp.com/attachments/1432905846437711879/1513759561062813716/IMG-20250214-WA0001.jpg?ex=6a28e5f3&is=6a279473&hm=7e4c6d73e86678ac8a8fa090ba1d5267246245acf1666f52d476fa18f22e6b30&
+2026-06-09 11:20:08,558 [INFO] Extracted text:
+Transaksi Berhasil
+14 Februari 2025,09.48.29 WIB
+Total
+ksi
+Rp2ss.Ooo
+No: Ref
+801522632700
+Sumber Dana
+GT M ALI BADRUN
+GB
+BANK BRI
+2232
+506
+Tujuan
+SYAIFULLAH
+BANK BRI
+4550 0101 4043 536
+Jenis Transaksi
+Transfer Bank BRI
+Catatan
+Nominal
+Rp25s.OOO
+Biaya Admin
+Rpo
+INFORMASI;
+Termasuk PPN (Apabila Dikenakan/ Apabila
+Ada)
+PT. Bank Rakyat Indonesia (Persero) Tbk
+Kantor Pusat BRI
+Jakarta Pusat
+NPWP
+01.001.608.7-093.000
+@ 2023 PT: Bank
+Rakyat Indonesia (Persero), Tbk:
+Terdaftar dan dlawasi oleh Otoritas Jasa Keuangan
+Transa
+
+
+
+
+
+3
+
+
+Blaya
+
+
+
+
+
+
+2026-06-09 11:20:08,559 [INFO] Extraction details - Raw data: {'bank': 'DANA', 'timestamp': '09.48.29'}
+2026-06-09 11:20:08,559 [INFO] Extracted data: {'bank': 'DANA', 'timestamp': '09.48.29'}
+2026-06-09 11:20:08,561 [INFO] Saving to sheet: {'bank': 'DANA', 'timestamp': '09.48.29'}
+2026-06-09 11:20:10,060 [INFO] Data saved successfully
+2026-06-09 11:23:34,129 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2026-06-09 11:23:34,129 [WARNING] davey is not installed, voice will NOT be supported
+2026-06-09 11:23:34,130 [WARNING] Using CPU. Note: This module is much faster with a GPU.
+2026-06-09 11:23:38,860 [INFO] Starting bot...
+2026-06-09 11:23:38,861 [INFO] logging in using static token
+2026-06-09 11:23:41,740 [INFO] Shard ID None has connected to Gateway (Session ID: 12fc0c1239af26610b0d055ea7942304).
+2026-06-09 11:23:43,744 [INFO] Logged in as Sinut-BOT#5407
+2026-06-09 11:24:02,403 [INFO] Image detected from hptoko6400: https://cdn.discordapp.com/attachments/1432905846437711879/1513760559839842335/IMG-20250220-WA0042.jpg?ex=6a28e6e1&is=6a279561&hm=7f08da32bd3de1c568348d535f0a1a0d980ada985ed0a55b4322ad3f3c41699d&
+2026-06-09 11:24:03,326 [INFO] Processing image with OCR: https://cdn.discordapp.com/attachments/1432905846437711879/1513760559839842335/IMG-20250220-WA0042.jpg?ex=6a28e6e1&is=6a279561&hm=7f08da32bd3de1c568348d535f0a1a0d980ada985ed0a55b4322ad3f3c41699d&
+2026-06-09 11:24:07,951 [INFO] Extracted text:
+Transaksi Berhasil
+20 Februari 2025
+16.26*47 WIB
+Total Transaksi
+Rp3.OOo.OOO
+No Ref
+804214007220
+Sumber Dana
+JUNAIDI
+BANK BRI
+7715
+534
+Tujuan
+SYAIFULLAH
+BANK BRI
+4550 0101 4043 536
+Jenls Transaksi
+Transfer Bank BRI
+Catatan
+bayar pulsa
+Nominal
+Rp3.Ooo.0oO
+Biaya Admin
+Rpo
+INFORMASI:
+Biaya Termasuk PPN (Apabila Dikenakan/
+Apabila Ada)
+PT: Bank Rakyat Indonesia (Persero) Tbk.
+Kantor Pusat BRI
+Jakarta Pusat
+NPWP
+01.001.608.7-093.000
+2023 PT; Bank Rakyat Indonesia (Persero): Tbk:
+Terdaftar dan dlawasi pleh Otoritas Jasa Keuangan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-06-09 11:24:07,953 [INFO] Bank type detected: BRI
+2026-06-09 11:24:07,953 [INFO] Extraction details - Raw data: {'bank': 'BRI', 'amount': '3', 'name': 'SYAIFULLAH', 'date': '20 Februari 2025'}
+2026-06-09 11:24:07,953 [INFO] Extracted data: {'bank': 'BRI', 'amount': '3', 'name': 'SYAIFULLAH', 'date': '20 Februari 2025'}
+2026-06-09 11:24:07,954 [INFO] Saving to sheet: {'bank': 'BRI', 'amount': '3', 'name': 'SYAIFULLAH', 'date': '20 Februari 2025'}
+2026-06-09 11:24:18,448 [INFO] Data saved successfully
