@@ -331,6 +331,7 @@ def save_to_sheets(data):
 # 🗄️ SAVE TO DATABASE (via NestJS API)
 # ==============================
 API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:3001")
+API_KEY = os.getenv("API_KEY", "")
 
 
 def save_to_api(data):
@@ -345,7 +346,10 @@ def save_to_api(data):
             "tanggal": data.get("tanggal") or "",
         }
         resp = requests.post(
-            f"{API_BASE_URL}/api/transfer?sheet=false", json=payload, timeout=15
+            f"{API_BASE_URL}/api/transfer?sheet=false",
+            json=payload,
+            headers={"x-api-key": API_KEY},
+            timeout=15,
         )
         resp.raise_for_status()
         logger.info("Transfer saved to API/DB")
