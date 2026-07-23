@@ -330,20 +330,49 @@ def save_to_sheets(data):
 # ==============================
 # 📩 EVENT: MESSAGE
 # ==============================
+# Channels whose uploads trigger the OCR flow (name substring, emoji-tolerant).
+TRIGGER_CHANNELS = ("transaksi", "off-topic")
+# All bot/system replies are posted to this channel, not the source channel.
+RESPONSE_CHANNEL = "general"
+
+
+def _is_trigger_channel(channel):
+    name = (getattr(channel, "name", "") or "").lower()
+    return any(t in name for t in TRIGGER_CHANNELS)
+
+
+def _response_channel(message):
+    if message.guild:
+        ch = discord.utils.find(
+            lambda c: c.name.lower() == RESPONSE_CHANNEL, message.guild.text_channels
+        )
+        if ch:
+            return ch
+    return message.channel  # fallback: reply in place
+
+
 @client.event
 async def on_message(message):
     if message.author == client.user:
         return
-
     if not message.attachments:
         return
+    if not _is_trigger_channel(message.channel):
+        return
+
+    reply_to = _response_channel(message)
 
     for attachment in message.attachments:
         if not attachment.filename.lower().endswith((".png", ".jpg", ".jpeg")):
             continue
 
-        logger.info(f"Image detected from {message.author}: {attachment.url}")
-        await message.channel.send("📸 Memproses bukti transfer dengan OCR...")
+        logger.info(
+            f"Image from {message.author} in #{message.channel} "
+            f"-> replying in #{reply_to}"
+        )
+        await reply_to.send(
+            f"📸 Memproses bukti transfer dari #{message.channel} dengan OCR..."
+        )
 
         data = await process_image(attachment.url)
         if data:
@@ -357,9 +386,9 @@ async def on_message(message):
                 f"👤 Nama Penerima: {data.get('nama_penerima') or na}\n"
                 f"📅 Tanggal: {data.get('tanggal') or na}"
             )
-            await message.channel.send(msg)
+            await reply_to.send(msg)
         else:
-            await message.channel.send(
+            await reply_to.send(
                 "❌ Gagal membaca data dari gambar. Coba unggah gambar yang lebih jelas."
             )
 
