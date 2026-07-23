@@ -328,6 +328,32 @@ def save_to_sheets(data):
 
 
 # ==============================
+# 🗄️ SAVE TO DATABASE (via NestJS API)
+# ==============================
+API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:3001")
+
+
+def save_to_api(data):
+    """Persist the transfer to the NestJS API (DB only). The bot already wrote
+    the spreadsheet, so ?sheet=false prevents a duplicate row there."""
+    try:
+        payload = {
+            "waktu_kirim": data.get("waktu_kirim") or "",
+            "total_kirim": data.get("total_kirim") or "",
+            "nama_bank": data.get("nama_bank") or "",
+            "nama_penerima": data.get("nama_penerima") or "",
+            "tanggal": data.get("tanggal") or "",
+        }
+        resp = requests.post(
+            f"{API_BASE_URL}/api/transfer?sheet=false", json=payload, timeout=15
+        )
+        resp.raise_for_status()
+        logger.info("Transfer saved to API/DB")
+    except Exception as e:
+        logger.error(f"Error saving to API: {e}")
+
+
+# ==============================
 # 📩 EVENT: MESSAGE
 # ==============================
 # Channels whose uploads trigger the OCR flow (name substring, emoji-tolerant).
@@ -377,6 +403,7 @@ async def on_message(message):
         data = await process_image(attachment.url)
         if data:
             save_to_sheets(data)
+            await asyncio.to_thread(save_to_api, data)
             na = "N/A"
             msg = (
                 "✅ Data berhasil diambil & disimpan:\n"
